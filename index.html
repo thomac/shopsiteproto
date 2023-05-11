@@ -1,20 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopsite</title>
-</head>
-<body>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li style="float:right"><a class="active" href="#about">About</a></li>
-      </ul> 
-   
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to my fancy Shop!</h1>
+    </header>
+    <nav class="navbar">
+        <a class="nav-item active" href="#">Home</a>
+        <a class="nav-item" href="#">Products</a>
+        <a class="nav-item" href="#">About</a>
+        <a class="nav-item" href="#">Contact</a>
+    <main>
+      <section class="products">
+        <div class="product">
+          <img src="product1.jpg" alt="Product 1" />
+          <h2>Product 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="product2.jpg" alt="Product 2" />
+          <h2>Product 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="product3.jpg" alt="Product 3" />
+          <h2>Product 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <button>Add to Cart</button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
