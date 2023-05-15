@@ -1,30 +1,52 @@
 body {
   background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
-  font-family: "Lucida Console", "Courier New", monospace;
   margin: 0;
   padding: 0;
+  font-family: "BebasNeueBold"
+}
+@font-face {
+  font-family: "BebasNeueBold";
+  src: url("font/BebasNeue-Bold.ttf");
+}
+@font-face {
+  font-family: "BebasNeueBook";
+  src: url("font/BebasNeue-Book.ttf");
+}
+@font-face {
+  font-family: "BebasNeueLight";
+  src: url("font/BebasNeue-Light.ttf");
+}
+@font-face {
+  font-family: "BebasNeueRegular";
+  src: url("font/BebasNeue-Regular.ttf");
+}
+@font-face {
+  font-family: "BebasNeueThin";
+  src: url("font/BebasNeue-Thin.ttf");
 }
 
 header {
   text-align: center;
-  background-color:rgba(255, 255, 255, 0.200);
+  background-color:rgba(255, 255, 255, 0.300);
   padding: 32px;
-  margin: 02%;
+  margin: 01%;
   color: #222;
 }
 
 h1 {
-  font-size: 48px;
+  font-family: "BebasNeueBold";
+  font-size: 70px;
   border: 10px;
-  color:lightseagreen;
-  text-decoration-style: grey;
-  text-decoration:line-through;
-  text-decoration-line: underline;
+  color:#fff;
+}
+p{
+  font-family: "BebasNeueLight";
+  text-align: center;
 }
 
 .products {
   display: flex;
-  background-color:#161618;
+  background-color:#161616;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -50,11 +72,13 @@ h1 {
 }
 
 .product h2 {
+  font-family: "BebasNeueRegular";
   font-size: 24px;
   margin-bottom: 8px;
 }
 
 .product p {
+  font-family: "BebasNeueLight";
   font-size: 16px;
   margin-bottom: 16px;
 }
@@ -75,7 +99,7 @@ button:hover {
 }
 
 .navbar {
-  background-color: #222;
+  background-color: #202020;
   display: flex;
   justify-content: center;
   padding: 16px;
