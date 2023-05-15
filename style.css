@@ -7,16 +7,24 @@ body {
 
 header {
   text-align: center;
+  background-color:rgba(255, 255, 255, 0.200);
   padding: 32px;
-  color: #fff;
+  margin: 02%;
+  color: #222;
 }
 
 h1 {
   font-size: 48px;
+  border: 10px;
+  color:lightseagreen;
+  text-decoration-style: grey;
+  text-decoration:line-through;
+  text-decoration-line: underline;
 }
 
 .products {
   display: flex;
+  background-color:#161618;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
