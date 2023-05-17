@@ -43,10 +43,12 @@ p{
   font-family: "BebasNeueLight";
   text-align: center;
 }
+section{
+  background-color:#161616;
+}
 
 .products {
   display: flex;
-  background-color:#161616;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
